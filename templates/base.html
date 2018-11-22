@@ -1,0 +1,45 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- CSS -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{% static "css/base.css" %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{% static 'css/flexslider.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{% static 'css/fonts.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"/>
+    {% block extrahead %} {% endblock %}
+</head>
+<body>
+<!-- Preloader -->
+<div class="loader">
+    <!-- Preloader Inner -->
+    <div class="loader-inner">
+        <svg width="120" height="220" viewBox="0 0 100 100" class="loading-spinner" version="1.1"
+             xmlns="http://www.w3.org/2000/svg"/>
+        <circle class="spinner" cx="50" cy="50" r="21" fill="#212932" stroke-width="4"/>
+    </div>
+    <!-- End preloader Inner -->
+</div>
+<!-- End Preloader -->
+<!-- Wrapper -->
+{% block content %} {% endblock content %}
+<!-- End Wrapper -->
+<!-- Javascript -->
+<script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+<script src="{% static 'js/smooth-scroll.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/masonry.min.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap"></script>
+<!-- Google Analytics -->
+<!-- End Google Analytics -->
+</body>
+</html>

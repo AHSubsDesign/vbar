@@ -1,0 +1,48 @@
+{% load i18n %}
+{% load static %}
+<!-- BG Image -->
+        <div class="background-img">
+            <img src="{% static 'img/9.jpg' %}" alt="">
+        </div>
+        <!-- End BG Image -->
+        <!-- Start Container -->
+        <div class="container">
+            <!-- Row -->
+            <ul class="block-location row front-p">
+                <!-- Columns -->
+                <li class="col-lg-4">
+                    <!-- Flip Effect -->
+                    <div class="block-flip">
+                        <div class="block-flip-front">
+                            <div class="block-inner-flip">
+                                <div class="block-centred">
+                                    <div class="block-content-inner">
+                                        <h3 class="mb-3 uppercase">Castelfidardo</h3>
+                                        <h6 class="alt-font uppercase">{% trans 'Opening Hours' %}</h6>
+                                        <p class="mb-4">
+                                            {% trans 'Mon, Tue, Thu, Fri : 7am - 8pm <br /> Sat : 7am - 2am <br /> Sun : 8.30 am - 10pm  ' %}
+                                        </p>
+                                        <span class="link uppercase underline">{% trans 'More Info' %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-flip-back">
+                            <div class="block-inner-flip">
+                                <div class="block-centred">
+                                    <div class="block-content-inner">
+                                        <h3 class="mb-3 uppercase">Castelfidardo</h3>
+                                        <h6 class="alt-font uppercase">{% trans 'Address' %}</h6>
+                                        <p class="mb-4">via Settimio Soprani 5 <br /> Castelfidardo, AN, 60022</p>
+                                        <a href="https://goo.gl/maps/BG8wxg6ntNG2" target="_blank" class="uppercase link">
+                                            {% trans 'Location' %}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- End Container -->

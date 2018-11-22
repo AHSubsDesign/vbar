@@ -1,0 +1,16 @@
+{% load i18n %}
+{% load static %}
+        <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 text-center text-md-left">
+                    <h1 class="uppercase mb-4">{% trans 'Make a Reservation' %}</h1>
+                    <p class="lead">{% trans 'In any event, our staff will be thrilled to welcome you! We are impatient to keep possible waiting periods as short as possible for you, Have a pleasant coffee experience !' %}</p>
+                    <h4 class="alt-font mb-5 uppercase">{% trans 'For group reservations over 10 people please use the reservation button below or give us a call !' %}</h4>
+                    <script type='text/javascript' src='//www.opentable.it/widget/reservation/loader?rid=164928&type=button&theme=standard&iframe=true&overlay=false&domain=it&lang=en-GB'></script
+                </div>
+                <div class="col-8 col-md-6 col-lg-4">
+                    <img alt="Image" src="{% static 'img/15.png' %}" class="img-fluid mb-0 box-shadow">
+                </div>
+            </div>
+        </div>
+        <!-- End Container -->

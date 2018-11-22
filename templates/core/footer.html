@@ -1,0 +1,82 @@
+{% load i18n %}
+{% load static %}
+<footer class="footer gap-one-top-sm gap-one-bottom-md">
+    <div class="poly-footer"></div>
+    <!-- Container -->
+    <div class="container">
+        <!-- Row -->
+        <div class="row justify-content-around align-items-center">
+            <!-- Column -->
+            <div class="col-12 col-md-6 col-lg-5 text-center">
+                <div class="block-content logo">
+                    <img class="mb-0" src="{% static 'img/logo.png' %}" alt="">
+                </div>
+            </div>
+            <!-- End Column -->
+        </div>
+        <!-- End Row -->
+    </div>
+    <!-- End Container -->
+    <!-- Container -->
+    <div class="container">
+        <!-- Row -->
+        <div class="row justify-content-between align-items-center mt-5">
+            <!-- Column -->
+            <div class="col-md-4 text-md-left">
+                <small class="small">
+                    <span>&copy; 2018 VeniceBar</span><br />
+                    <span>{% trans 'Created by' %} </span>
+                    <a href="https://ahd-creative.it" target="_blank" class="link">AHD-Creative</a>
+                </small>
+            </div>
+            <!-- End Column -->
+            <!-- Left Column -->
+            <div class="col-md-4 text-md-center">
+                <!-- Social Links -->
+                <ul class="block-social list-inline mb-30">
+                    <li class="list-inline-item">
+                        <!-- Facebook -->
+                        <a href="https://rebrand.ly/venice6113" target="_blank">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <!-- End facebook -->
+                    <!-- Instagram -->
+                    <li class="list-inline-item">
+                        <a href="https://rebrand.ly/venic4fd79" target="_blank">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </li>
+                    <!-- End Instagram -->
+                    <!-- Return Up -->
+                    <li class="list-inline-item">
+                        <a class="scroll" href="#wrapper">
+                            <i class="icon-angle-up"></i>
+                        </a>
+                    </li>
+                    <!-- End Buttons -->
+                </ul>
+                <!-- End Social Links -->
+            </div>
+            <!-- End Left Column -->
+            <!-- Right Column -->
+            <div class="col-md-4 text-md-right">
+                <small class="small text-left">
+                    <span>
+                        VeniceBar
+                    </span>
+                    <br>
+                    <span>
+                        via Settimio Soprani 5, 60022 Castelfidardo (AN)
+                    </span>
+                    <br>
+                    <span>
+                        {% trans 'VAT Number' %} : 02787790423
+                    </span>
+                </small>
+            </div>
+        </div>
+        <!-- End Row -->
+    </div>
+    <!-- End Container -->
+</footer>

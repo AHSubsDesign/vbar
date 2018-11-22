@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-21 14:17+0100\n"
+"PO-Revision-Date: 2018-11-22 10:26+0053\n"
+"Last-Translator: b'  <luca.forzutti@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.0\n"
+
+#: templates/core/about.html:12
+msgid "Welcome to the VeniceBar"
+msgstr "Benvenuti al VeniceBar"
+
+#: templates/core/about.html:33
+msgid ""
+"Another thing about coffee is the community. Coffee drinkers have something "
+"in common when we walk into a coffee shop. We are all anticipating for that "
+"ultimate cup as we stay in line for be called."
+msgstr ""
+"Oltre al caffè c'è la sua comunità. I bevitori di caffè hanno qualcosa in "
+"comune quando entriamo in un bar. Stiamo tutti pregustando la miglior tazza "
+"mentre siamo in attesa."
+
+#: templates/core/about.html:34
+msgid "VeniceBar Knowledge"
+msgstr "La conoscenza del VeniceBar"
+
+#: templates/core/about.html:35
+msgid ""
+"Another thing about coffee is the community. Coffee drinkers have something "
+"in common when we walk into a coffee shop. We are all anticipating for that "
+"ultimate cup as we stay in line for be called. We already made up about "
+"coffee. We are all anticipating for that ultimate cup as we stay in line for"
+" be called."
+msgstr ""
+"Oltre al caffè c'è la sua comunità. I bevitori di caffè hanno qualcosa in "
+"comune quando entriamo in un bar. Stiamo tutti pregustando la miglior tazza "
+"mentre siamo in attesa. Siamo già pronti per il caffè. Stiamo tutti "
+"pregustando la miglior tazza mentre siamo in attesa."
+
+#: templates/core/cafe_menu.html:16
+msgid "Cold Beverages &amp; Cocktails"
+msgstr "Bevande Fredde &amp; Cocktail"
+
+#: templates/core/cafe_menu.html:17
+msgid "Coffee &amp; Teas"
+msgstr "Caffè &amp; Tè"
+
+#: templates/core/cafe_menu.html:18
+msgid "Venetian Food , Snacks and More"
+msgstr "Cibo Veneziano, Snack e Altro"
+
+#: templates/core/cafe_menu.html:30
+msgid "Iced Coffee"
+msgstr "Caffè Shakerato"
+
+#: templates/core/cafe_menu.html:31
+msgid ""
+"Freshly brewed Iced Coffee Blend served chilled and lightly sweetened over "
+"ice."
+msgstr ""
+"Miscela di Caffè Shakerato preparato fresco servito freddo e appena "
+"addolcito dal ghiaccio."
+
+#: templates/core/cafe_menu.html:37
+msgid "Irish Coffee"
+msgstr "Irish Coffee"
+
+#: templates/core/cafe_menu.html:38
+msgid ""
+"We follow the original recipe: hot coffee with Irish Whiskey and mounted "
+"cream on top."
+msgstr ""
+"Seguiamo la ricetta originale: caffè caldo con Whiskey Irlandese e panna "
+"montata in cima."
+
+#: templates/core/cafe_menu.html:44
+msgid "Casanova"
+msgstr "Casanova"
+
+#: templates/core/cafe_menu.html:45
+msgid "Cofee Shake with Almond syrup and coffee beans on top"
+msgstr "Caffè Shakerato con sciroppo di Mandorla e chicchi di caffè in cima"
+
+#: templates/core/cafe_menu.html:54
+msgid "Mojito"
+msgstr "Mojito"
+
+#: templates/core/cafe_menu.html:55
+msgid ""
+"A Cocktail that consists of five ingredients: White Rum, Sugar(Sugar Cane) "
+"Lime juice, Soda Water and Mint"
+msgstr ""
+"Cocktail costituito da cinque ingredienti: Rum Bianco, Zucchero di Canna, "
+"Succo di Lime, Soda e Menta"
+
+#: templates/core/cafe_menu.html:61
+msgid "Hugo"
+msgstr "Hugo"
+
+#: templates/core/cafe_menu.html:62
+msgid ""
+"A Cocktail that consists of four ingredients: Prosecco Wine, Sambucus "
+"Elderberry Syrup, Soda Water and Mint"
+msgstr ""
+"Cocktail costituito da quattro ingredienti: Prosecco, Sciroppo di Sambuca, "
+"Soda e Menta"
+
+#: templates/core/cafe_menu.html:68
+msgid "Spritz Veneziano"
+msgstr "Spritz Veneziano"
+
+#: templates/core/cafe_menu.html:69
+msgid "The real venetian recipe. Prosecco Wine, Campari and Soda Water"
+msgstr "La vera ricetta veneziana. Prosecco, Campari e Soda"
+
+#: templates/core/cafe_menu.html:84
+msgid "Espresso"
+msgstr "Espresso"
+
+#: templates/core/cafe_menu.html:85
+msgid ""
+"Cofee brewed by expressing or forcing nearly boiling water under pressure "
+"through finely ground cofee beans."
+msgstr ""
+"Caffè preparato espresso con acqua quasi bollente sotto pressione che "
+"attraversa i chicchi di caffè finemente tritati."
+
+#: templates/core/cafe_menu.html:91
+msgid "Americano"
+msgstr "Americano"
+
+#: templates/core/cafe_menu.html:92
+msgid ""
+"Coffee drink prepared by diluting an Espresso with hot water, giving it a "
+"similar strength to, but different flavour from traditionally brewed coffee"
+msgstr ""
+"Caffè preparato diluendo un Espresso con acqua calda, che gli dà una forza "
+"simile, ma un gusto diverso da quello del caffè preparato in modo "
+"tradizionale"
+
+#: templates/core/cafe_menu.html:98
+msgid "Capuccino"
+msgstr "Cappuccino"
+
+#: templates/core/cafe_menu.html:99
+msgid ""
+"Espresso based coffee drink prepared with double espresso and steamed milk "
+"foam"
+msgstr "Caffè base espresso doppio e latte montato a vapore"
+
+#: templates/core/cafe_menu.html:107
+msgid "Earl Grey"
+msgstr "Earl Grey"
+
+#: templates/core/cafe_menu.html:108
+msgid "Tea blend wich has been flavoured with the addition of Oil of Bergamot"
+msgstr "Miscela di tè insaporita con l'aggiunta di Olio di Bergamotto"
+
+#: templates/core/cafe_menu.html:114
+msgid "Masala Chai"
+msgstr "Masala Chai"
+
+#: templates/core/cafe_menu.html:115
+msgid ""
+"Flavoured tea beverage made by brewing black tea with a mixture of aromatic "
+"Indian spices and herbs"
+msgstr ""
+"Tè aromatizzato preparando tè nero con una miscela di spezie aromatiche "
+"Indiane ed erbe"
+
+#: templates/core/cafe_menu.html:121
+msgid "Green Tea"
+msgstr "Tè Verde"
+
+#: templates/core/cafe_menu.html:122
+msgid ""
+"Type of Tea made from Camelia Sinesis (tea plant) leaves that have not "
+"undergone the same process used to make oolong teas andblack teas"
+msgstr ""
+"Tipo di Tè fatto dalle foglie di Camelia Sinesis (pianta di tè) che non "
+"hanno subìto lo stesso processo dei tè oolong e dei tè neri"
+
+#: templates/core/cafe_menu.html:136
+msgid "Tramezzino"
+msgstr "Tramezzino"
+
+#: templates/core/cafe_menu.html:137
+msgid ""
+"Triangular italian sandwich constructed from two slices of soft milk based "
+"white bread with no crusts"
+msgstr ""
+"Tramezzino Italiano triangolare costituito da due fette di pane bianco "
+"morbido al latte senza croste"
+
+#: templates/core/cafe_menu.html:143
+msgid "Club Sandwich"
+msgstr "Club Sandwich"
+
+#: templates/core/cafe_menu.html:144
+msgid ""
+"Sandwich of bread (occasionally toasted), Bacon, lettuce, tomato and "
+"mayonnaise."
+msgstr ""
+"Sandwich di pane (spesso tostato), Bacon, lattuga, pomodoro e maionese"
+
+#: templates/core/cafe_menu.html:150
+msgid "Piadina"
+msgstr "Piadina"
+
+#: templates/core/cafe_menu.html:151
+msgid ""
+"Italian Flatbread typically prepared in Romagna historical region. Made with"
+" white flour, lard, olive oil, salt and water."
+msgstr ""
+"Sfoglia di pane Italiano preparata tipicamente nella regione storica della "
+"Romagna. Fatta con farina bianca, lardo, olio d'oliva, sale e acqua."
+
+#: templates/core/cafe_menu.html:159
+msgid "Cicchetti"
+msgstr "Cicchetti"
+
+#: templates/core/cafe_menu.html:160
+msgid ""
+"Small snacks or side dishes typically served in traditional "
+"<strong>bàcari</strong> (osterie) in Venice"
+msgstr ""
+"Piccoli snack o contorni serviti tipicamente nei tradizionali "
+"<strong>bàcari</strong> (osterie) di Venezia"
+
+#: templates/core/cafe_menu.html:166
+msgid "Hamburger"
+msgstr "Hamburger"
+
+#: templates/core/cafe_menu.html:167
+msgid ""
+"A sandwich consisting of one or more cooked ground meat (beef), placed "
+"inside a sliced bread roll. Completely Customizable"
+msgstr ""
+"Un sandwich composto da carne macinata (manzo), posta fra fette di pane "
+"affettato. Completamente Personalizzabile"
+
+#: templates/core/cafe_menu.html:173
+msgid "Baccalà Mantecato"
+msgstr "Baccalà Mantecato"
+
+#: templates/core/cafe_menu.html:174
+msgid ""
+"Stockfish skinned, boiled and literally beaten to a pulp as olive oil is "
+"drizzled <i>al filo</i> seasoned little salt and fresh parsley"
+msgstr ""
+"Stoccafisso spellato, bollito e ridotto in polpa con olio d'oliva fatto "
+"scendere <i>al filo</i>, con poco sale e prezzemolo fresco"
+
+#: templates/core/contact.html:10
+msgid "Get in Touch with us"
+msgstr "Contattaci"
+
+#: templates/core/contact.html:13
+msgid ""
+"We are open from 7am to 8pm on Mon, Tue, Thu, Fri <br />Sat, 7am - 2am<br "
+"/>Sun 8.30am - 10pm ."
+msgstr ""
+"Siamo aperti dalle 7 alle 20 il Lun, Mar, Gio, Ven <br />Sab, 7 . 2 <br "
+"/>Dom 8.30 - 22."
+
+#: templates/core/footer.html:28
+msgid "Created by"
+msgstr "Creato da"
+
+#: templates/core/footer.html:74
+msgid "VAT Number"
+msgstr "Partita IVA"
+
+#: templates/core/gallery.html:4 templates/core/header.html:21
+msgid "Gallery"
+msgstr "Galleria"
+
+#: templates/core/header.html:16
+msgid "About"
+msgstr "Riguardo"
+
+#: templates/core/header.html:17
+msgid "Menu"
+msgstr "Menu"
+
+#: templates/core/header.html:18
+msgid "Offer"
+msgstr "Offerte"
+
+#: templates/core/header.html:19
+msgid "Locatiom"
+msgstr "Posizione"
+
+#: templates/core/header.html:20
+msgid "Reservation"
+msgstr "Prenotazione"
+
+#: templates/core/header.html:22
+msgid "Contact"
+msgstr "Contatti"
+
+#: templates/core/locations.html:21
+msgid "Opening Hours"
+msgstr "Orari Apertura"
+
+#: templates/core/locations.html:23
+msgid ""
+"Mon, Tue, Thu, Fri : 7am - 8pm <br /> Sat : 7am - 2am <br /> Sun : 8.30 am -"
+" 10pm  "
+msgstr "Lun, Mar, Gio, Ven: 7 - 20 <br /> Sab: 7 - 2 <br /> Dom: 8.30 - 22"
+
+#: templates/core/locations.html:25
+msgid "More Info"
+msgstr "Altre Info"
+
+#: templates/core/locations.html:35
+msgid "Address"
+msgstr "Indirizzo"
+
+#: templates/core/locations.html:38
+msgid "Location"
+msgstr "Posizione"
+
+#: templates/core/menu.html:17
+msgid "Discover Our Menu"
+msgstr "Scopri il Nostro Menu"
+
+#: templates/core/menu.html:18
+msgid "Delicious Venetian Drinks &amp; Food "
+msgstr "Delizioni Drink Veneziani &amp; Cibo"
+
+#: templates/core/menu.html:20
+msgid ""
+"Coffee lovers love the aroma of our coffee especially in the morning "
+"<br>because coffee has a way to brighten moods."
+msgstr ""
+"Gli amanti del caffè amano l'aroma del nostro caffè specialmente la mattina "
+"<br>perché il caffè riesce sempre a tirare su di morale."
+
+#: templates/core/offer.html:13
+msgid "What We Offer"
+msgstr "Cosa Offriamo"
+
+#: templates/core/offer.html:14
+msgid "Variety of Coffee and Pastry"
+msgstr "Varietà di Caffè e Pasticceria"
+
+#: templates/core/offer.html:41
+msgid "Coffee &amp; Pstry"
+msgstr "Caffè &amp; Paste"
+
+#: templates/core/offer.html:42
+msgid ""
+"Another thing about our coffee is the community. Coffee drinkers have "
+"something in common when we walk into a cafè. We are all anticipating for "
+"that ultimate cup as we stay in line for us to be called. We already made up"
+" about coffee"
+msgstr ""
+"Oltre al caffè c'è la sua comunità. I bevitori di caffè hanno qualcosa in "
+"comune quando entriamo in un bar. Stiamo pregustando la miglior tazza mentre"
+" siamo in fila. Siamo già pronti per il nostro caffè."
+
+#: templates/core/offer.html:52
+msgid "Types of Cofee"
+msgstr "Tipi di Caffè"
+
+#: templates/core/offer.html:53
+msgid ""
+"Latte, espresso, cappuccino – there are so many different types of coffee it"
+" becomes a language itself!"
+msgstr ""
+"Latte, espresso, cappuccino – ci sono diversi tipi di caffè che diventa una "
+"lingua a sé!"
+
+#: templates/core/reservation.html:6
+msgid "Make a Reservation"
+msgstr "Fai una Prenotazione"
+
+#: templates/core/reservation.html:7
+msgid ""
+"In any event, our staff will be thrilled to welcome you! We are impatient to"
+" keep possible waiting periods as short as possible for you, Have a pleasant"
+" coffee experience !"
+msgstr ""
+"In qualsiasi caso, il nostro staff sarà lieto di darti il benvenuto! Non "
+"vediamo l'ora di rendere il tempo di attesa il più breve possibile per voi. "
+"Godetevi la vostra esperienza al caffè!"
+
+#: templates/core/reservation.html:8
+msgid ""
+"For group reservations over 10 people please use the reservation button "
+"below or give us a call !"
+msgstr ""
+"Per le prenotazioni di gruppo oltre le 10 persone usa il bottone "
+"prenotazione qua sotto oppure chiamaci!"
+
+#: templates/core/site.html:37
+msgid "Coffee Drinks &amp: Venetian Food;"
+msgstr "Caffè &amp; Cibo Veneziano"
+
+#: templates/core/site.html:38
+msgid "Your #1 Source for Venetian Food and a very Good Cofee"
+msgstr "La Tua Risorsa #1 per Cibo Veneziano e un Gran Caffè"
+
+#: venicebar/settings.py:130
+msgid "Italian"
+msgstr "Italiano"
+
+#: venicebar/settings.py:131
+msgid "English"
+msgstr "Inglese"

@@ -1,0 +1,26 @@
+{% load static %}
+{% load i18n %}
+<div class="background-img">
+            <img src="{% static 'img/6.jpg' %}" alt="">
+        </div>
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row justify-content-center">
+                <!-- Column -->
+                <div class="col-12 col-md-10 col-lg-9">
+                    <div class="block-content text-center front-p">
+                        <!-- Title -->
+                        <div class="block-title">
+                            <img class="waves" src="{% static 'img/waves-light.png' %}" alt="">
+                            <!-- h1 menu -->
+                            <h1 class="uppercase mb-0 text-white">{% trans 'Discover Our Menu' %}</h1>
+                            <span class="text-white">{% trans 'Delicious Venetian Drinks &amp; Food ' %}</span>
+                        </div>
+                        <p class="lead text-white mt-4 mb-0">{% trans 'Coffee lovers love the aroma of our coffee especially in the morning <br>because coffee has a way to brighten moods.' %}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- End Container -->

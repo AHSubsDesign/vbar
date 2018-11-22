@@ -1,0 +1,41 @@
+{% load static %}
+{% load i18n %}
+<div class="left-part">
+    <a class="logo scroll" href="#wrapper">
+        <img src="{% static 'img/logo.png' %}" alt="">
+    </a>
+</div>
+<div class="right-part">
+    <nav class="main-nav">
+        <div class="toggle-mobile-but">
+            <a href="#" class="mobile-but">
+                <div class="lines"></div>
+            </a>
+        </div>
+        <ul class="main-menu list-inline">
+            <li><a href="#about" class="scroll list-inline-item">{% trans 'About' %}</a></li>
+            <li><a href="#menu" class="scroll list-inline-item">{% trans 'Menu' %}</a></li>
+            <li><a href="#offer" class="scroll list-inline-item">{% trans 'Offer' %}</a></li>
+            <li><a class="scroll list-inline-item" href="#location">{% trans 'Locatiom' %}</a></li>
+            <li><a class="scroll list-inline-item" href="#reservation">{% trans 'Reservation' %}</a></li>
+            <li><a class="scroll list-inline-item" href="#gallery">{% trans 'Gallery' %}</a></li>
+            <li><a class="scroll list-inline-item" href="#contact">{% trans 'Contact' %}</a></li>
+            <li>
+                <form action="{% url 'set_language' %}" method="post">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.get_full_path|slice:'3:' }}"/>
+                    <select name="language">
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %}
+                                    selected="selected"{% endif %}>
+                                {{ language.name_local }} ({{ language.code }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                    <input type="submit" value="Change"/>
+                </form>
+            </li>
+        </ul>
+    </nav>
+</div>
